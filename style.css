@@ -254,16 +254,219 @@ body
 
 @media only screen and (min-width: 321px) and (max-width:479px)
 {
-  .hour{
-    font-size: 10px;
+    #point 
+    {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 71px;
+        left: 71px;
+        opacity: 1;
+    }
+
+     .hour
+      {
+          font-size: 10px;
+      }
+ 
+     .hour-1
+    {
+        font-size: 10px;
+        font-weight: bold;
+        top: 18px;
+        right: 45px;
+    } 
+
+    .hour-2
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 39px;
+       right: 24px;
+   }
+
+    .hour-3
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 68px;
+       right: 15px;
+   }  
+
+    .hour-4
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 96px;
+       right: 23px;
+   }
+
+    .hour-5
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 117px;
+       right: 42px;
+   }
+
+    .hour-6
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 126px;
+       right: 71px;
+   }
+
+    .hour-7
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 119px;
+       right: 101px;
+   }
+
+    .hour-8
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 98px;
+       right: 120px;
+   }
+
+    .hour-9
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 71px;
+       right: 129px;
+   }
+
+    .hour-10
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 42px;
+       right: 118px;
+   }
+
+    .hour-11
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 18px;
+       right: 96px;
+   }
+
+    .hour-12
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 11px;
+       right: 70px;
+   }
   }  
-}
 
-@media only screen and (min-width:480px) and (max-width:767px)
+@media only screen and (min-width:480px) and (max-width:768px)
 {
+    #point 
+    {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 145px;
+        left: 145px;
+        opacity: 1;
+    }
 
+    #body
+   {
+      position: fixed;
+   }
+
+    .hour
+    {
+        font-size: 20px;
+    }
+
+    .hour-1
+    {
+        top: 34px;
+        right: 96px;
+    }
+
+    .hour-2
+    {
+        top: 77px;
+        right: 49px;
+    }
+
+    .hour-3
+    {
+        top: 138px;
+        right: 30px;
+    }
+
+    .hour-4
+    {
+        top: 198px;
+        right: 47px;
+    }
+
+    .hour-5
+    {
+        top: 241px;
+        right: 91px;
+    }
+
+
+    .hour-6
+    {
+        top: 262px;
+        right: 152px;
+    }
+
+    .hour-7
+    {
+        top: 241px;
+        right: 212px;
+    }
+
+    .hour-8
+    {
+        top: 202px;
+        right: 252px;
+    }
+
+    .hour-9
+    {
+        top: 145px;
+        right: 269px;
+    }
+
+    .hour-10
+    {
+        top: 80px;
+        right: 246px;
+    }
+
+    .hour-11
+    {
+        top: 38px;
+        right: 204px;
+    }
+
+    .hour-12
+    {
+        top: 22px;
+        right: 147px;
+    }   
 }
-@media only screen and (min-width:768px) and (max-width:1079px)
+
+@media only screen and (min-width:769px) and (max-width:1079px)
 {
     #point 
     {
