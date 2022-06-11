@@ -1,0 +1,452 @@
+body
+{  
+   background-image: url(bg1.webp);
+   background-repeat: no-repeat;
+}
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock1.png) no-repeat;
+    background-size: 100%;
+    border-radius: 90%;
+}
+
+#hours,
+#minute,
+#second
+{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hours{
+    width: 1.9%;
+    height: 25%;
+    top: 25%;
+    left: 48.90%;
+    opacity: 0.8;
+}
+  
+#minute {
+    width: 1.6%;
+    height: 35%;
+    top: 14.5%;
+    left: 48.7%;
+    opacity: 0.8;
+    transform: rotate(180deg);
+}
+  
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+#point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 294px;
+    left: 296px;
+    opacity: 1;
+}
+
+.hour
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+}
+
+.hour-1
+{
+    top: 100px;
+    right: 168px;
+}
+.hour-2
+{
+    top: 181px;
+    right: 94px;
+}
+.hour-3
+{
+    top: 288px;
+    right: 62px;
+}
+.hour-4
+{
+    top: 407px;
+    right: 94px;
+}
+.hour-5
+{
+    top: 487px;
+    right: 168px;
+}
+.hour-6
+{
+    top: 528px;
+    right: 297px;
+}
+.hour-7
+{
+    top: 487px;
+    right: 425px;
+}
+.hour-8
+{
+    top: 407px;
+    right: 506px;
+}
+.hour-9
+{
+    top: 288px;
+    right: 539px;
+}
+.hour-10
+{
+    top: 181px;
+    right: 496px;
+}
+.hour-11
+{
+    top: 99px;
+    right: 426px;
+}
+.hour-12
+{
+    top: 57px;
+    right: 297px;
+}
+
+@media screen and (min-width: 320px) and (max-length:420px) {
+    .body
+   {
+      padding: 2rem;
+      margin: 2rem;
+   }
+
+#point 
+    {
+        width: 6px;
+        height: 6px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 71px;
+        left: 71px;
+        opacity: 1;
+    }
+
+     .hour
+      {
+          font-size: 10px;
+      }
+ 
+     .hour-1
+    {
+        font-size: 10px;
+        font-weight: bold;
+        top: 20px;
+        right: 42px;
+    } 
+
+    .hour-2
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 40px;
+       right: 24px;
+   }
+
+    .hour-3
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 67px;
+       right: 19px;
+   }  
+
+    .hour-4
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 93px;
+       right: 25px;
+   }
+
+    .hour-5
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 110px;
+       right: 43px;
+   }
+
+    .hour-6
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 120px;
+       right: 69px;
+   }
+
+    .hour-7
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 112px;
+       right: 93px;
+   }
+
+    .hour-8
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 95px;
+       right: 110px;
+   }
+
+    .hour-9
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 73px;
+       right: 121px;
+   }
+
+    .hour-10
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 43px;
+       right: 111px;
+   }
+
+    .hour-11
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 21px;
+       right: 93px;
+   }
+
+    .hour-12
+   {
+       font-size: 10px;
+       font-weight: bold;
+       top: 10px;
+       right: 68px;
+   }
+}  
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+    #point 
+    {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 145px;
+        left: 145px;
+        opacity: 1;
+    }
+
+    #body
+   {
+      position: fixed;
+   }
+
+    .hour
+    {
+        font-size: 20px;
+    }
+
+    .hour-1
+    {
+        font-size: 20px;
+        top: 43px;
+        right: 88px;
+    }
+
+    .hour-2
+    {
+        font-size: 20px;
+        top: 84px;
+        right: 50px;
+    }
+
+    .hour-3
+    {
+        font-size: 20px;
+        top: 140px;
+        right: 35px;
+    }
+
+    .hour-4
+    {
+        font-size: 20px;
+        top: 196px;
+        right: 50px;
+    }
+
+    .hour-5
+    {
+        font-size: 20px;
+        top: 242px;
+        right: 94px;
+    }
+
+
+    .hour-6
+    {
+        font-size: 20px;
+        top: 260px;
+        right: 154px;
+    }
+
+    .hour-7
+    {
+        font-size: 20px;
+        top: 240px;
+        right: 215px;
+    }
+
+    .hour-8
+    {
+        font-size: 20px;
+        top: 193px;
+        right: 252px;
+    }
+
+    .hour-9
+    {
+        font-size: 20px;
+        top: 139px;
+        right: 269px;
+    }
+
+    .hour-10
+    {
+        font-size: 20px;
+        top: 79px;
+        right: 244px;
+    }
+
+    .hour-11
+    {
+        font-size: 20px;
+        top: 41px;
+        right: 204px;
+    }
+
+    .hour-12
+    {
+        font-size: 20px;
+        top: 25px;
+        right: 144px;
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width:1920px)
+{
+#point 
+    {
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 369px;
+        left: 373px;
+        opacity: 1;
+    }
+
+    .hour
+    {
+        font-size: 35px;
+    }
+
+    .hour-1
+    {
+        top: 105px;
+        right: 227px;
+    }
+
+    .hour-2
+    {
+        top: 216px;
+        right: 125px;
+    }
+
+    .hour-3
+    {
+        top: 365px;
+        right: 89px;
+    }
+
+    .hour-4
+    {
+        top: 501px;
+        right: 126px;
+    }
+
+    .hour-5
+    {
+        top: 607px;
+        right: 217px;
+    }
+
+    .hour-6
+    {
+        top: 653px;
+        right: 372px;
+    }
+
+    .hour-7
+    {
+        top: 612px;
+        right: 531px;
+    }
+
+    .hour-8
+    {
+        top: 507px;
+        right: 633px;
+    }
+
+    .hour-9
+    {
+        top: 357px;
+        right: 673px;
+    }
+
+    .hour-10
+    {
+        top: 221px;
+        right: 620px;
+    }
+
+    .hour-11
+    {
+        top: 103px;
+        right: 518px;
+    }
+    .hour-12
+    {
+        top: 62px;
+        right: 365px;
+    }
+}
